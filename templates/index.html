@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .tit { 
+            text-align: center;
+            font-size: large;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            background-color: #ae0afa;
+            padding: 10px;
+        }
+        .message { margin-bottom: 10px; }
+        .user-message { background-color: #d1ecf1; padding: 10px; border-radius: 5px; }
+        .response-message { background-color: #f8d7da; padding: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="tit"><head>Chat App</head></div>
+    <div class="container">
+        <div id="chat" style="height: 400px; overflow-y: scroll; margin-bottom: 10px;"></div>
+        <input type="text" id="message" class="form-control" placeholder="Type your message here...">
+        <button id="send" class="btn btn-primary" style="margin-top: 10px;">Send</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#send').click(sendMessage);
+            $('#message').keypress(function(event) {
+                if (event.which === 13) {
+                    sendMessage();
+                }
+            });
+
+            function sendMessage() {
+                var message = $('#message').val();
+                if (message.trim() !== '') {
+                    $('#chat').append('<div class="message user-message">' + message + '</div>');
+                    $.post('/api', { message: message }, function(response) {
+                        // Access the 'message' property of the response JSON object
+                        var aiResponse = response.message;
+                        $('#chat').append('<div class="message response-message">' + aiResponse + '</div>');
+                    });
+                    $('#message').val('');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
