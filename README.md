@@ -1,5 +1,6 @@
 OpenAI Integrated Chatbot Application
 
+!(clip.gif)
 
 Executive Summary
 
