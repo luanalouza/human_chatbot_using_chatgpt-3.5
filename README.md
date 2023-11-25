@@ -1,6 +1,6 @@
 OpenAI Integrated Chatbot Application
 
-![OpenAI Integrated Chatbot Application](clip.gif)
+![OpenAI Integrated Chatbot Application](./clip.gif)
 
 Executive Summary
 
