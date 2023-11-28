@@ -7,6 +7,24 @@ Project Overview
 
 This project presents a cutting-edge web application harnessing the capabilities of OpenAI's language model to introduce an interactive chatbot tailored for an internet service provider. The chatbot is meticulously crafted to assist users with inquiries about internet plans, deliver pertinent information, and create a personalized user experience.
 
+Technologies Used
+
+
+1. Flask:
+
+Flask, a lightweight web application framework for Python, is utilized to handle HTTP requests, render HTML templates, and structure the web application.
+2. OpenAI API:
+
+The OpenAI API is leveraged to generate responses for user messages. This API provides state-of-the-art natural language processing models.
+3. HTML and Jinja Templates:
+
+HTML templates with Jinja, a template engine for Python integrated into Flask, are used to render dynamic content.
+4. Python:
+
+The core language used to write the application logic, handle user input, and interact with the OpenAI API.
+5. RESTful API:
+
+The application follows RESTful principles, using different routes for different functionalities, especially for handling user messages.
 Key Features
 
 1. User-Friendly Chat Interface:
@@ -18,7 +36,10 @@ The chatbot follows a scripted conversation flow, guaranteeing a friendly and in
 3. Integration with OpenAI:
 
 The core of the chatbot is powered by OpenAI's advanced language model, facilitating the generation of contextually appropriate responses to user queries.
+
+
 Usage Instructions
+
 Repository Setup:
 
 git clone <repository_url>
