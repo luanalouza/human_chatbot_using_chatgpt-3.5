@@ -25,7 +25,8 @@ The OpenAI API is leveraged to generate responses for user messages. This API pr
 
 
 3. HTML and Jinja Templates:
-4. 
+
+  
 
 HTML templates with Jinja, a template engine for Python integrated into Flask, are used to render dynamic content.
 
