@@ -5,6 +5,7 @@ OpenAI Integrated Chatbot Application
 
 Project Overview
 
+
 This project presents a cutting-edge web application harnessing the capabilities of OpenAI's language model to introduce an interactive chatbot tailored for an internet service provider. The chatbot is meticulously crafted to assist users with inquiries about internet plans, deliver pertinent information, and create a personalized user experience.
 
 Technologies Used
@@ -93,6 +94,8 @@ On macOS/Linux:
 
 source venv/bin/activate
 
+
+
 OpenAI API Key Configuration:
 
 
@@ -101,15 +104,25 @@ Substitute 'your_API_key' with your actual OpenAI API key in the app.py file.
 Flask Application Execution:
 
 
+
+
 python app.py
 Chat Interface Access:
 Launch a web browser and navigate to http://localhost:5000.
 
 Important Considerations
+
+
 1. Security Precautions:
 
+   
+
 Safeguard your OpenAI API key to prevent public exposure.
+
+
 2. Customizability:
+
+   
 
 Tailor the conversation script and prompts within the codebase to align with specific business objectives.
 Potential Business Impact
