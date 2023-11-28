@@ -120,7 +120,12 @@ Important Considerations
 Safeguard your OpenAI API key to prevent public exposure.
 
 
+
+
+
 2. Customizability:
+
+   
 
    
 
