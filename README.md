@@ -11,36 +11,71 @@ Technologies Used
 
 
 1. Flask:
+   
 
 Flask, a lightweight web application framework for Python, is utilized to handle HTTP requests, render HTML templates, and structure the web application.
+
+
 2. OpenAI API:
 
+
+
+   
 The OpenAI API is leveraged to generate responses for user messages. This API provides state-of-the-art natural language processing models.
+
+
 3. HTML and Jinja Templates:
+4. 
 
 HTML templates with Jinja, a template engine for Python integrated into Flask, are used to render dynamic content.
+
+
 4. Python:
 
+
 The core language used to write the application logic, handle user input, and interact with the OpenAI API.
+
+
 5. RESTful API:
 
+
 The application follows RESTful principles, using different routes for different functionalities, especially for handling user messages.
+
+
 Key Features
+
+
 
 1. User-Friendly Chat Interface:
 
+   
+
 The application boasts an intuitive chat interface, ensuring seamless interaction with the chatbot.
+
+
 2. Predefined Conversation Flow:
 
+
+
 The chatbot follows a scripted conversation flow, guaranteeing a friendly and informative interaction with users.
+
+
+
 3. Integration with OpenAI:
+
+
 
 The core of the chatbot is powered by OpenAI's advanced language model, facilitating the generation of contextually appropriate responses to user queries.
 
 
 Usage Instructions
 
+
+
 Repository Setup:
+
+
+
 
 git clone <repository_url>
 
