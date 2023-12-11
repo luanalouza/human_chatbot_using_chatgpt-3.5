@@ -1,14 +1,14 @@
-OpenAI Integrated Chatbot Application
+# OpenAI Integrated Chatbot Application
 
 ![OpenAI Integrated Chatbot Application](./clip.gif)
 
 
-Project Overview
+# Project Overview
 
 
 This project presents a cutting-edge web application harnessing the capabilities of OpenAI's language model to introduce an interactive chatbot tailored for an internet service provider. The chatbot is meticulously crafted to assist users with inquiries about internet plans, deliver pertinent information, and create a personalized user experience.
 
-Technologies Used
+# Technologies Used
 
 
 1. Flask:
@@ -44,7 +44,7 @@ The core language used to write the application logic, handle user input, and in
 The application follows RESTful principles, using different routes for different functionalities, especially for handling user messages.
 
 
-Key Features
+# Key Features
 
 
 
@@ -70,11 +70,11 @@ The chatbot follows a scripted conversation flow, guaranteeing a friendly and in
 The core of the chatbot is powered by OpenAI's advanced language model, facilitating the generation of contextually appropriate responses to user queries.
 
 
-Usage Instructions
+# Usage Instructions
 
 
 
-Repository Setup:
+# Repository Setup:
 
 
 
@@ -82,26 +82,33 @@ Repository Setup:
 git clone <repository_url>
 
 
-Virtual Environment Activation:
 
-On Windows:
+# Create and Activate the environment:
+
+python -m venv venv   
+
+# Activate on Linux/Mac
+
+source venv/bin/activate 
+
+# Activate on Windows
+
+venv\Scripts\activate      
 
 
-.\venv\Scripts\activate
 
-On macOS/Linux:
+# Install Dependencies
 
-
-source venv/bin/activate
+pip install -r requirements.txt
 
 
 
-OpenAI API Key Configuration:
+# OpenAI API Key Configuration:
 
 
 Substitute 'your_API_key' with your actual OpenAI API key in the app.py file.
 
-Flask Application Execution:
+# Flask Application Execution:
 
 
 
@@ -110,7 +117,7 @@ python app.py
 Chat Interface Access:
 Launch a web browser and navigate to http://localhost:5000.
 
-Important Considerations
+# Important Considerations
 
 
 1. Security Precautions:
