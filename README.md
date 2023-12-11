@@ -87,11 +87,11 @@ git clone <repository_url>
 
 python -m venv venv   
 
-# Activate on Linux/Mac
+Activate on Linux/Mac
 
 source venv/bin/activate 
 
-# Activate on Windows
+Activate on Windows
 
 venv\Scripts\activate      
 
